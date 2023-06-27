@@ -35,14 +35,14 @@ Você também pode definir a opção do Garbage Collector como uma variável de 
 
 Por exemplo, no Linux ou no macOS, você pode adicionar a seguinte linha ao seu arquivo **~/.bashrc** ou **~/.bash_profile**:
 
-**```
+```
 export JAVA_OPTS="-XX:+UseSerialGC"
 ```
-**
+
 E então, ao iniciar seu aplicativo Java, você pode referenciar essa variável de ambiente:
 
 ```
-**java $JAVA_OPTS -jar seuAplicativo.jar**
+java $JAVA_OPTS -jar seuAplicativo.jar
 ```
 
 No Windows, você pode definir uma variável de ambiente no Painel de Controle:
